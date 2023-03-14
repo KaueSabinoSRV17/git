@@ -22,4 +22,19 @@ Para checkar tanto o nome quanto o endereço dos remotes conhecidos, usamos o se
 	
 	git remote -v
 
+Caso queiramos mudar o nome de um repo remoto, podemos usar o seguinte
 
+	git remote rename <nome velho> <nome novo>
+
+## Fazendo um Push
+
+Para fazer um push, o padrão de como ele realmente funciona é o seguinte
+
+	git push <nome do remoto> <branch desejada>
+
+
+Caso queiramos usar apenas `git push`, podemos fazer o seguinte comando no primeiro push:
+
+	git push -u <remoto> <branch>
+
+Após isso ser configurado, apenas `git push` será suficiente
