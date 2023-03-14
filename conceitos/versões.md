@@ -55,3 +55,20 @@ Para apagar um stash, idealmente após o apply
 Para aplicar e apagar ao mesmo tempo
 
 	git stash pop <índice do stash>
+
+## Voltando no Tempo com Checkout
+
+Com o comando `checkout` podemos também voltar a um estado anterior a partir de uma hash de um commit
+
+	git checkout <hash de um commit>
+
+Para poder "salvar" e continuar a fazer novas alterações a partir deste commit antigo, devemos 
+fazer uma nova branch assim que "voltarmos no tempo", pois essa ação nos deixa "solto", não 
+estando em nenhuma branch específica
+
+	git checkout -b <branch que agora terá o código antigo>
+
+Caso você dê um `git branch`, o resultado esperado é o seguinte:
+
+	master # ela vai estar na frente
+	<branch antiga> # está atras da master
