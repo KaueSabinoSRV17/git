@@ -4,7 +4,9 @@ O Github não é o único serviço de gestão de Pull Requests. Por diversos mot
 
 ## BitBucket
 
-O BitBucket tem a vantagem de possibilitar a gestão e criação de repos privados gratuitamente
+O BitBucket tem a vantagem de possibilitar a gestão e criação de repos privados gratuitamente.
+
+**OBS: O GITHUB HOJE EM DIA LIBERA ATÉ 3 REPOS PRIVADOS GRATUITAMENTE**
 
 ## GitLab
 
